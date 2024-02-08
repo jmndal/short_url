@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV File Upload</title>
+  <link rel="stylesheet" href="csv.css">
+</head>
+
+<body>
+  <form id="csvForm" method="POST">
+    <input type="file" id="csvFile" accept=".csv" />
+    <button type="button" onclick="uploadCSV()">Upload</button>
+  </form>
+  <table id="dataTable">
+    <!-- Table headers will be added dynamically -->
+  </table>
+  <script src="csv.js"></script>
+</body>
+
+</html>
