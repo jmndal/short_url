@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/static/image/bg.png");
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding-top: 22rem;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.color-header {
+  background-color: #201f1f;
+  padding: 0.5rem 1rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.color-text {
+  color: #fff;
+}
+
+.green {
+  background-color: #2dbc2d !important;
+  border: solid #2dbc2d 1px;
+}
+
+.green:hover {
+  background-color: #269a26 !important;
+  border: solid #2dbc2d 1px;
+}
+
+.content-style {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.footer-style {
+  padding: 0 8px 5px 0;
+}

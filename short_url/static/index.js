@@ -18,7 +18,7 @@ function shortenURL() {
     .then((data) => {
       // Display the shortened URL as a link
       console.log("DATA: " + data);
-      document.getElementById("shortenedURL").innerHTML = "Shortened URL: <input id='shortenedLink' value='" + data + "' readonly></input>";
+      document.getElementById("shortenedURL").innerHTML = "<label for='shortenedLink'>Shortened URL:</label><input class='form-control' id='shortenedLink' value='" + data + "' readonly></input>";
     });
 }
 
